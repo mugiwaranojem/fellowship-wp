@@ -1,0 +1,366 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	My Religion
+ * @version 	1.4.1
+ */
+ 
+-----------------------------------------------------------------------
+				CHANGELOG
+-----------------------------------------------------------------------
+Version 1.4.1:
+	
+	1. Fixed twitter
+	2. Fixed pagination in shortcodes
+	3. Fixed sermon media icons in sermon shortcode on open sermon
+	4. Updated plugins
+--------------------------------------
+Version 1.4.0:
+	
+	1. Fixed header overlaps by default option
+	2. Updated plugins
+--------------------------------------
+Version 1.3.9:
+
+	1. Updated WooCommerce templates
+	2. Updated plugins
+	3. Updated translates
+--------------------------------------
+Version 1.3.8:
+
+	1. The Events Calendar: Fixed tribe event series
+	2. Updated plugins
+--------------------------------------
+Version 1.3.7:
+
+	1. Fix for webp format in jQuery iLightBox
+	2. Fixed apply custom fonts in gutenberg editor
+	3. Fixed fatal error on PHP 8
+	4. Updated plugins
+	5. Updated translates
+--------------------------------------
+Version 1.3.6:
+
+	1. Added the ability to add new Google fonts.
+	2. Added the ability to add and use local fonts.
+	3. Updated plugins
+	4. Updated translates
+--------------------------------------
+Version 1.3.5:
+
+	1. Fixed twitter connection
+	2. Fix for WooCommerce 6.9.0
+	3. Fixed hover slider script
+	4. Fixed behavior section setting for Posts Slider, Pricing Table and Gallery shortcodes
+	5. Updated plugins
+	6. Updated translates
+--------------------------------------
+Version 1.3.4:
+
+	1. Fixed demo content
+	2. Update Plugins
+--------------------------------------
+Version 1.3.3:
+
+	1. Fixed Content Composer (WP 6)
+	2. Update Plugins
+--------------------------------------
+Version 1.3.2:
+
+	1. Fixed Events Calendar colors
+	2. Fixed hover slider script.
+	3. Update Plugins
+--------------------------------------
+Version 1.3.1:
+
+	1. Fixed The Events Calendar updated design
+	2. Update Plugins
+--------------------------------------
+Version 1.3.0:
+
+	1. Fixed The Events Calendar updated design
+	2. Update Plugins
+	3. Update Translate
+--------------------------------------
+Version 1.2.9:
+
+	1. Fixed isotope
+	2. Updated plugins
+	3. Updated translates
+	4. Added disable header cart option
+--------------------------------------
+Version 1.2.8:
+
+	1. WP 5.6 section and column fix
+	2. Sermon regular expression fix
+	3. revslider 6.3.3
+--------------------------------------
+Version 1.2.7:
+
+	1. WP 5.6 pop-up fix
+	2. WP 5.6 drag&drop fix
+	3. WP 5.6 columns fix
+	4. Update ilightbox
+	5. PHP 7.4 Donations plugin fix
+	6. revslider 6.3.2
+--------------------------------------
+Version 1.2.6:
+
+	1. Update isotope
+	2. Classic Editor fix
+	3. PHP 7.4 implode fix
+	4. Gutenberg plugin notices and CC button fixes
+	5. Timetable 6.4
+	6. revslider 6.2.23
+--------------------------------------
+Version 1.2.5:
+
+	1. Fix for span tag
+	2. Product type fix
+	3. Ligtbox fix
+	4. Timetable 6.2
+	5. revslider 6.2.22
+	6. Removed Form Builder plugin
+--------------------------------------
+Version 1.2.4:
+
+	1. Gutenberg fixes
+	2. Color picker fix
+	3. Woo update
+	4. Timetable 6.1
+	5. revslider 6.2.18
+	6. LayerSlider 6.11.2
+--------------------------------------
+Version 1.2.3:
+	
+	1. revslider 6.2.12
+	2. seremons & donations path fix
+	3. Portfolio shortcode in open project fix
+--------------------------------------
+Version 1.2.2:
+	
+	1. CC update 1.8.1
+	2. CFB 1.4.5
+	3. Gutenberg fixes
+	4. Woo 4.0.1
+	5. revslider 6.2.2
+	6. LayerSlider 6.11.1
+	7. PayPal first install fix
+	6. Timetable 6.0
+--------------------------------------
+Version 1.2.1:
+
+	1. Update plugins
+--------------------------------------
+Version 1.2.0:
+
+	1. Update plugins
+	2. Fix when activate plugin without "Save Changes"
+	3. Woo 3.6.0
+	4. Gutenberg fix
+--------------------------------------
+Version 1.1.9:
+
+	1. Fixed Logo Type Text
+	2. Update Woo
+	3. Fixed website in Contact Info Widget
+	4. Fixed style for input[type=date]
+	5. Dequeue events calendar pro style for widgets
+	6. Changed escaping function attributes "esc_html|esc_html__" to "esc_attr|esc_attr__"
+	7. Fixed Tribe Bar Views for new version The Events Calendar.
+	8. Events calendar navigation fix
+	9. Fix for social sharing shortcode (pin it button)
+	10. Change cookie notice plugin
+	11. Removed Google+ Button in Open Posts
+	12. Fix for update_post_meta. Value must be a string
+	13. Gutenberg
+	14. Update plugins
+--------------------------------------
+Version 1.1.8:
+
+	1. Update plugins
+	2. Remove envato market plugin zip archive from theme
+	3. Add external link to github repository for envato market plugin
+	4. Update for Gutenberg
+	5. Update events calendar 4.6.21
+	6. Fix for iLightbox in load more gallery
+	7. Fix events page layout
+--------------------------------------
+Version 1.1.7:
+
+	1. Update Plugins
+	2. Add Cookie Notice
+	3. Update FB widget for Privacy Policy
+	4. Update Woo 3.4.0
+	5. Changed escaping function attributes esc_html__() to esc_attr__() in placeholder
+	6. Update Languages
+	7. Add Mailpoet 3
+--------------------------------------
+Version 1.1.6:
+
+	1. Woo 3.3.3
+	2. Update plugins
+--------------------------------------
+Version 1.1.5:
+
+	1. Woo 3.3.2
+	2. Update plugins
+	3. Fix for headline background color scheme
+	4. Timetable 5.3
+	5. Fix for scrollspy (if not one page)
+--------------------------------------
+Version 1.1.4:
+
+	1. Fix related events date
+	2. Update plugins
+--------------------------------------
+Version 1.1.2:
+
+	1. Update plugins
+	2. Update color-picker-alpha
+	3. Update languages
+	4. Child theme style priority
+	5. Envato market
+--------------------------------------
+Version 1.1.1:
+
+	1. Update WOO 3.2.0
+	2. $woocommerce->cart->get_cart_url() - is deprecated, use wc_get_cart_url() 
+	3. Project link target fix
+	4. Fix for one page nav
+	5. Fix for google fonts include
+	6. WOO (empty_cart) FIX
+	7. WOO cart animation FIX
+	8. Update plugins
+	9. Remove overflow hidden in open posts content
+	10. Fix large logo on small screens
+	11. Fix empty dynamic cart
+	12. Caption in WP Gallery
+	13. get_template_directory_uri to get_template_directory
+--------------------------------------
+Version 1.1.0:
+
+	1. Update plugins
+	2. Fix for shortcodes lightbox (dont show default WP text options)
+	3. Woo files
+	4. Fix profile info frontend
+	5. Fix for repeatable option "remove button"(bug in profile info item)
+--------------------------------------
+Version 1.0.9:
+
+	1. Featured event styles
+	2. Fix download link in sermons
+	3. Single sermon image fix layout
+	4. Fix for woo terms
+	5. Fix for related products in single products
+	6. Add escapes to events calendar
+	7. Project link target fix
+	8. Fix for Woo product image
+	9. Fix event calendar photo view
+	10. Cart on small resolution
+	11. Update Sliders
+--------------------------------------	
+Version 1.0.8:
+
+	1. Fix for Woo update 3.0.0
+	2. Add My account default styles
+	3. Fix styles for terms checkbox
+	4. Fix for Event Calendar Pro Photo view
+	5. Fix Pings function
+	6. 'Donate' Buttons Text
+	7. Fix for responsive Navigation
+--------------------------------------	
+Version 1.0.7:
+
+	1. Fix organizer link in open event
+	2. Fix in single event links
+	3. Fix for Woo page title
+	4. Fix for Fixed Header Function start
+	5. Fix in related projects
+	6. Fix in gallery isotope run
+	7. Fix Woo "post a review" link if user not logged in
+	8. Fix "Preview Changes" button for projects with custom post formats
+	9. Change main wp_enqueue_style function
+	10. Fix for About Author Box
+	11. Replace base64_ to hex2bin in export settings
+	12. Fix for social icon title(no space)
+	13. Plugin Updates
+	14. Fix orderby for popular items
+	15. Header on small screens(less height)
+	16. Search on full screen on all screens
+	17. Default Font weight
+--------------------------------------
+Version 1.0.6:
+
+	1. Fix for text logo with quotes
+	2. Update plugins
+	3. Current menu item on small screens
+	4. Copyright fix
+	5. Demo content
+--------------------------------------
+Version 1.0.5:
+
+	1. Drag&drop
+	2. Fix in fixed header script (touch desctops)
+	3. Add media width script
+	4. Shop cart on small screens
+	5. Heading height on > 768
+	6. Woocommerce to WooCommerce
+	7. Featured block display flex
+	8. Fix for sermons 4 columns
+	9. Updata ilightbox
+	10. Add translation to post nav
+--------------------------------------
+Version 1.0.4:
+
+	1. �ribe events fix
+	2. Add icons
+	3. Update sliders
+	4. Remove get_contents
+	5. Post featured image checkbox
+	6. Update Languages
+	7. WP 4.7
+	8. Fix for adaptive menu dropdown arrow
+	9. Add screenshot to child theme
+--------------------------------------
+Version 1.0.3:
+
+	1. Move likes posttype to CC
+	2. Change cmsmastersLike function
+	3. Add prefix to pagination
+	4. Fix for row no margin
+	5. Change colors and fonts styles load
+	6. Replace load_template to vasiliy_locate_template in cmsmasters_get_tweets
+	7. Update Translate
+--------------------------------------
+Version 1.0.2: files operations:
+
+	1. Fix for cmsmasters_divpdel
+	2. Fix social icon edit variable in profile
+	3. Fix Footer logo and image on load screen display
+	4. Add author option in sermons
+	5. Pingbacks & Trackbacks
+	6. Validation
+	 - Add my_religion_theme_logo_styles(),
+	 - Add my_religion_theme_page_heading_styles(),
+	 - replace <style> into my_religion_theme_custom_styles()
+	7. Styles for .gallery(clear floats)
+	8. Escapes
+	9. Fix for tables in firefox
+	10. CMSMasters Content Composer fix for chrome & opera bug
+	11. Fix: Event List widget width
+	12. Fix for Events Calendar Gmap
+--------------------------------------
+Version 1.0.1: files operations:
+
+	1. Add loader to more button
+	2. Added new arrow for select
+	3. Clear default styles for input/select in Safari
+	4. adding "use strict"; in JavaScript
+	5. Fix cmsmasters icon list shortcode
+	6. Fix fixed header for Touch devices (width > 1024)
+	7. Add function my_religion_locate_template
+	8. Fix social icon edit variable
+	9. Default styles for Social Sharing Shortcode
+	10. Clients shortcode fix
+--------------------------------------
+Version 1.0: Release!

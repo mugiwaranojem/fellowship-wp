@@ -1,0 +1,91 @@
+<?php
+/**
+ * @package 	WordPress
+ * @subpackage 	My Religion
+ * @version		1.2.9
+ * 
+ * Default Page Template
+ * Created by CMSMasters
+ * 
+ */
+
+
+get_header();
+
+
+list($cmsmasters_layout) = my_religion_theme_page_layout_scheme();
+
+
+echo '<!-- Start Content -->' . "\n";
+
+
+if ($cmsmasters_layout == 'r_sidebar') {
+	echo '<div class="content entry" role="main">' . "\n\t";
+} elseif ($cmsmasters_layout == 'l_sidebar') {
+	echo '<div class="content entry fr" role="main">' . "\n\t";
+} else {
+	echo '<div class="middle_content entry" role="main">' . "\n\t";
+}
+
+
+if (have_posts()) : the_post();
+	$content_start = substr(ltrim(get_post_field('post_content', get_the_ID())), 0, 15);
+	
+	
+	if ($cmsmasters_layout == 'fullwidth' && $content_start === '[cmsmasters_row') {
+		echo '</div>' . 
+		'</div>';
+	}
+	
+	
+	the_content();
+	
+	echo '<div class="cl"></div>';
+	
+	
+	if ($cmsmasters_layout == 'fullwidth' && $content_start === '[cmsmasters_row') {
+		echo '<div class="content_wrap ' . $cmsmasters_layout . 
+		((is_singular('project')) ? ' project_page' : '') . 
+		((is_singular('profile')) ? ' profile_page' : '') . 
+		'">' . "\n\n" . 
+			'<div class="middle_content entry" role="main">' . "\n\t";
+	}
+	
+	
+	wp_link_pages(array( 
+		'before' => '<div class="subpage_nav" role="navigation">' . '<strong>' . esc_html__('Pages', 'my-religion') . ':</strong>', 
+		'after' => '</div>' . "\n", 
+		'link_before' => '<span>', 
+		'link_after' => '</span>' 
+	));
+	
+	
+	comments_template();
+endif;
+
+
+echo '</div>' . "\n" . 
+'<!-- Finish Content -->' . "\n\n";
+
+
+if ($cmsmasters_layout == 'r_sidebar') {
+	echo "\n" . '<!-- Start Sidebar -->' . "\n" . 
+	'<div class="sidebar" role="complementary">' . "\n";
+	
+	get_sidebar();
+	
+	echo "\n" . '</div>' . "\n" . 
+	'<!-- Finish Sidebar -->' . "\n";
+} elseif ($cmsmasters_layout == 'l_sidebar') {
+	echo "\n" . '<!-- Start Sidebar -->' . "\n" . 
+	'<div class="sidebar fl" role="complementary">' . "\n";
+	
+	get_sidebar();
+	
+	echo "\n" . '</div>' . "\n" . 
+	'<!-- Finish Sidebar -->' . "\n";
+}
+
+
+get_footer();
+

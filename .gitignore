@@ -3,3 +3,18 @@
 .DS_Store
 
 /data
+
+web/*
+web/wp-admin/*
+web/wp-includes/*
+
+# Except for the themes directories:
+!web/
+!web/*/
+!web/*/wp-content/
+!web/*/wp-content/themes/
+!web/*/wp-content/themes/*
+!web/*/wp-content/themes/*/*
+!web/*/wp-content/themes/*/*/*
+!web/*/wp-content/themes/*/*/*/*
+!web/*/wp-content/themes/*/*/*/*/*
