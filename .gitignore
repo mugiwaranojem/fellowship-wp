@@ -3,10 +3,13 @@
 .DS_Store
 
 /data
+.vscode/
 
 web/*
 web/wp-admin/*
 web/wp-includes/*
+web/wp-content/plugins/*
+web/wp-content/uploads/*
 
 # Except for the themes directories:
 !web/
